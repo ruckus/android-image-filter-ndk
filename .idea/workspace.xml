@@ -72,16 +72,16 @@
       <file leaf-file-name="ImageActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/ImageActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="99" selection-start="1520" selection-end="1520" vertical-scroll-proportion="0.0">
+            <state line="60" column="2" selection-start="1778" selection-end="1838" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="9" selection-start="390" selection-end="390" vertical-scroll-proportion="0.19591837">
+            <state line="2" column="135" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -96,10 +96,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="imageprocessing.c" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="imageprocessing.c" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jni/imageprocessing.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="53" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.0">
+            <state line="39" column="30" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.63673466">
               <folding />
             </state>
           </provider>
@@ -122,10 +122,10 @@
       <list>
         <option value="$PROJECT_DIR$/jni/Android.mk" />
         <option value="$PROJECT_DIR$/README" />
-        <option value="$PROJECT_DIR$/jni/imageprocessing.c" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/com/example/ImageActivity.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/jni/imageprocessing.c" />
       </list>
     </option>
   </component>
@@ -487,13 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jni/imageprocessing.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="53" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="30" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
@@ -501,16 +494,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/ImageActivity.java">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="99" selection-start="1520" selection-end="1520" vertical-scroll-proportion="0.0">
+        <state line="2" column="135" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/com/example/ImageActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="9" selection-start="390" selection-end="390" vertical-scroll-proportion="0.19591837">
+        <state line="60" column="2" selection-start="1778" selection-end="1838" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jni/imageprocessing.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="30" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.63673466">
           <folding />
         </state>
       </provider>

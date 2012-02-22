@@ -22,9 +22,8 @@ static int rgb_clamp(int value) {
 }
 
 static void brightness(AndroidBitmapInfo* info, void* pixels, float brightnessValue){
-	int xx, yy, red, green, blue, L;
+	int xx, yy, red, green, blue;
 	uint32_t* line;
-  //float brightness = 1.6;
 
 	for(yy = 0; yy < info->height; yy++){
 			line = (uint32_t*)pixels;
@@ -50,6 +49,7 @@ static void brightness(AndroidBitmapInfo* info, void* pixels, float brightnessVa
 			pixels = (char*)pixels + info->stride;
 		}
 }
+
 
 JNIEXPORT void JNICALL Java_com_example_ImageActivity_brightness(JNIEnv * env, jobject  obj, jobject bitmap, jfloat brightnessValue)
 {
