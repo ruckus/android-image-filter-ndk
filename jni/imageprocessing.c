@@ -21,10 +21,10 @@ static int rgb_clamp(int value) {
   return value;
 }
 
-static void brightness(AndroidBitmapInfo* info, void* pixels){
+static void brightness(AndroidBitmapInfo* info, void* pixels, float brightnessValue){
 	int xx, yy, red, green, blue, L;
 	uint32_t* line;
-	float brightness = 1.6;
+  //float brightness = 1.6;
 
 	for(yy = 0; yy < info->height; yy++){
 			line = (uint32_t*)pixels;
@@ -36,9 +36,9 @@ static void brightness(AndroidBitmapInfo* info, void* pixels){
 				blue = (int) (line[xx] & 0x00000FF );
 
         //manipulate each value
-        red = rgb_clamp((int)(red * brightness));
-        green = rgb_clamp((int)(green * brightness));
-        blue = rgb_clamp((int)(blue * brightness));
+        red = rgb_clamp((int)(red * brightnessValue));
+        green = rgb_clamp((int)(green * brightnessValue));
+        blue = rgb_clamp((int)(blue * brightnessValue));
 
         // set the new pixel back in
         line[xx] =
@@ -51,7 +51,7 @@ static void brightness(AndroidBitmapInfo* info, void* pixels){
 		}
 }
 
-JNIEXPORT void JNICALL Java_com_example_ImageActivity_brightness(JNIEnv * env, jobject  obj, jobject bitmap)
+JNIEXPORT void JNICALL Java_com_example_ImageActivity_brightness(JNIEnv * env, jobject  obj, jobject bitmap, jfloat brightnessValue)
 {
 
     AndroidBitmapInfo  info;
@@ -71,7 +71,7 @@ JNIEXPORT void JNICALL Java_com_example_ImageActivity_brightness(JNIEnv * env, j
         LOGE("AndroidBitmap_lockPixels() failed ! error=%d", ret);
     }
 
-    brightness(&info,pixels);
+    brightness(&info,pixels, brightnessValue);
 
     AndroidBitmap_unlockPixels(env, bitmap);
 }

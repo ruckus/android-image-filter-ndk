@@ -6,8 +6,8 @@
     >
   <ImageView
     android:id="@+id/imageView"
-    android:layout_width="600px" 
-    android:layout_height="400px" 
+    android:layout_width="400px"
+    android:layout_height="266px"
     />
   
   <Button
@@ -15,7 +15,23 @@
    android:layout_width="fill_parent"
    android:layout_height="wrap_content"
    android:text="Adjust Brightness"
-   
     />
+
+  <SeekBar
+    android:id="@+id/seekBar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:max="100"
+  />
+
+  <TextView
+    android:id="@+id/label"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text=""
+  />
+
+
 </LinearLayout>
+
 

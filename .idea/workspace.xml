@@ -72,7 +72,16 @@
       <file leaf-file-name="ImageActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/ImageActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="103" selection-start="892" selection-end="892" vertical-scroll-proportion="0.5925926">
+            <state line="49" column="99" selection-start="1520" selection-end="1520" vertical-scroll-proportion="0.66938776">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="135" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -81,7 +90,7 @@
       <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="2" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
+            <state line="9" column="30" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,7 +99,7 @@
       <file leaf-file-name="imageprocessing.c" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jni/imageprocessing.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="25" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
+            <state line="40" column="53" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -112,6 +121,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/jni/Android.mk" />
+        <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/jni/imageprocessing.c" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/com/example/ImageActivity.java" />
@@ -383,6 +393,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959402" sideWeight="0.6703079" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -395,10 +406,9 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24946581" sideWeight="0.6703079" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32969216" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969216" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Android Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.6703079" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32969216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -476,23 +486,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+    <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="2" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
+        <state line="4" column="135" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jni/imageprocessing.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="25" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0">
+        <state line="40" column="53" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="30" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/ImageActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="103" selection-start="892" selection-end="892" vertical-scroll-proportion="0.5925926">
+        <state line="49" column="99" selection-start="1520" selection-end="1520" vertical-scroll-proportion="0.66938776">
           <folding />
         </state>
       </provider>
