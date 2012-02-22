@@ -78,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="135" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
+            <state line="4" column="114" selection-start="337" selection-end="337" vertical-scroll-proportion="0.06530612">
               <folding />
             </state>
           </provider>
@@ -96,10 +96,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="imageprocessing.c" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="imageprocessing.c" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jni/imageprocessing.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="30" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.63673466">
+            <state line="39" column="30" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -124,8 +124,8 @@
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/com/example/ImageActivity.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/jni/imageprocessing.c" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -494,13 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="135" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/ImageActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="2" selection-start="1778" selection-end="1838" vertical-scroll-proportion="0.0">
@@ -510,7 +503,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jni/imageprocessing.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="30" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.63673466">
+        <state line="39" column="30" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="114" selection-start="337" selection-end="337" vertical-scroll-proportion="0.06530612">
           <folding />
         </state>
       </provider>
